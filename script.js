@@ -35,3 +35,33 @@
 //let edad=prompt('Ingresá una edad por favor');
 //let resultado=edad*7;
 //alert(`El equivalente de ${edad} en años perros es: ${resultado}`)
+
+//EJERCICIO 7 Necesitamos un programa que pida una cantidad de minutos con el siguiente mensaje: Ingresá una cantidad de minutos. Con esta información, el programa deberá mostrar el resultado de la conversión en segundos mediante el mensaje: El resultado de la conversión de {minutos} minutos a segundos es: {resultado}
+//let minutos=prompt('Ingresá una cantidad de minutos');
+//let resultado=minutos*60;
+//alert (`El resultado de la conversión de ${minutos} minutos a segundos es: ${resultado}`)
+
+//EJERCICIO 8 Necesitamos un programa que pida una cantidad de días con el siguiente mensaje:
+
+//Ingresá una cantidad de días por favor
+//El programa deberá mostrar el resultado de la conversión de los días a segundos mediante el mensaje: El resultado de la conversión de {dias} días a segundos es: {resultado}
+//let dias=prompt('Ingresá una cantidad de días por favor');
+//let resultado=dias*60*60*24;
+//alert (`El resultado de la conversión de ${dias} días a segundos es: ${resultado}`)
+
+//EJERCICIO 9 Necesitamos un programa que pida una cantidad de kilómetros mediante el mensaje: Ingresá una cantidad de kilómetros por favor. Con esta información, el programa deberá mostrar el resultado de la conversión de kilómetros a millas mediante el siguiente mensaje: El resultado de la conversión de {kilometros} kilometros a millas es: {resultado}
+//let kilometros = prompt (`Ingresá una cantidad de kilómetros`);
+//let resultado = kilometros * 0.621371;
+//alert(`El resultado de la conversión de ${kilometros} kilometros a millas es: ${resultado}`);
+
+//EJERCICIO 10 Necesitamos un programa que pida ingresar el valor de la base y el valor de la altura de un triángulo mediante los siguientes mensajes: Ingresá el valor de la base del triángulo. Ingresá el valor de la altura del triángulo. Con esta información, el programa deberá mostrar el resultado del área del triángulo mediante el siguiente mensaje: El resultado del área del triángulo con base {base} y altura {altura} es: {resultado}
+//let base=prompt('Ingresá el valor de la base del tríangulo');
+//let altura=prompt(`Ingrese el valor de la altura del tríangulo`);
+//let resultado=base*altura/2;
+//alert(`El resultado del área del triángulo con base ${base} y altura ${altura} es: ${resultado}`);
+
+//EJERCICIO 11 Necesitamos un programa que pida ingresar el valor de la base y el valor de la altura de un rectángulo mediante los siguientes mensajes: Ingresá el valor de la base del rectángulo. Ingresá el valor de la altura del rectángulo. Con esta información, el programa deberá mostrar el resultado del perímetro del rectángulo mediante el siguiente mensaje: El resultado del perímetro del rectángulo con base {base} y altura {altura} es: {resultado}
+//let base=prompt('Ingresá el valor de la base del rectángulo');
+//let altura=prompt(`Ingresá el valor de la altura del rectángulo`);
+//let resultado=2*(base+altura);
+//alert(`El resultado del perímetro del rectángulo con base ${base} y altura ${altura} es: ${resultado}`);
