@@ -143,3 +143,15 @@
 //let saldoRestante=(parseFloat(saldo) - (parseFloat(montoServicio1) + parseFloat(montoServicio2) + parseFloat(montoServicio3)));
 //alert(`Los servicios a pagar son ${servicio1} de $ ${montoServicio1}, ${servicio2} de $ ${montoServicio2}, ${servicio3} de $ ${montoServicio3}, queda disponible un saldo de $ ${saldoRestante}`);
 
+//EJERCICIO 22 Necesitamos un programa que pida ingresar la orden de compra de un local, para eso se deberá ingresar la cantidad que se desea comprar de tres productos distintos(mouse, teclado y auriculares) y la cantidad de cuotas de la compra mediante los siguientes mensajes respectivamente: Ingresá la cantidad de mouse que deseas comprar. Ingresá la cantidad de teclados que deseas comprar. Ingresá la cantidad de auriculares que deseas comprar. Ingresá la cantidad de cuotas. Tenemos que: * Un mouse sale $400. * El teclado $800. * Los auriculares $1500. Con esta información, el programa deberá mostrar un mensaje con el detalle y el valor total la compra, cantidad de cuotas y valor de cada una de las cuotas con el mensaje: 'El detalle de la compra es: mouse {cantidadDeMouse} x $ 400 $ {precioTotalDeMouse}, teclado {cantidadDeTeclados} x $ 800 $ {precioTotalDeTeclados}, auriculares {cantidadAuriculares} x $ 1500 $ {precioTotalAuriculares}. El total es $ {precioTotal} en {cuotas} cuotas de $ {precioPorCuota}'.
+//let cantidadDeMouse=prompt(`Ingresá la cantidad de mouse que deseas comprar`);
+//let cantidadDeTeclados=prompt(`Ingresá la cantidad de teclados que deseas comprar`);
+//let cantidadAuriculares=prompt(`Ingresá la cantidad de auriculares que deseas comprar`);
+//let cuotas=prompt(`Ingresá la cantidad de cuotas`);
+//let precioTotalDeMouse=cantidadDeMouse*400;
+//let precioTotalDeTeclados=cantidadDeTeclados*800;
+//let precioTotalAuriculares= cantidadAuriculares*1500;
+//let precioTotal=precioTotalDeMouse+ precioTotalDeTeclados + precioTotalAuriculares;
+//let precioPorCuota= precioTotal/cuotas;
+//alert(`El detalle de la compra es: mouse ${cantidadDeMouse} x $ 400 $ ${precioTotalDeMouse}, teclado ${cantidadDeTeclados} x $ 800 $ ${precioTotalDeTeclados}, auriculares ${cantidadAuriculares} x $ 1500 $ ${precioTotalAuriculares}. El total es $ ${precioTotal} en ${cuotas} cuotas de $ ${precioPorCuota}`)
+
