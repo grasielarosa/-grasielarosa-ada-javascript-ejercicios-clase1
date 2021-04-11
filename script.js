@@ -90,6 +90,18 @@
 //alert (`La duración total del vuelo con escala en ${escalaUno} de duración ${duracionEscalaUno} hs, ${escalaDos} de duración ${duracionEscalaDos} hs y ${escalaTres} de duración ${duracionEscalaTres} hs es: ${resultado} hs`);
 
 //EJERCICIO 15 Necesitamos un programa que pida ingresar un número de partida y una cantidad, mediante los siguientes mensajes:Ingresá un número.Ingresá una cantidad.Con esta información, el programa deberá incrementar el número cinco veces la cantidad y mostrar cinco mensajes seguidos que muestren el número del mensaje y el total incrementado hasta el momento. Por ejemplo si ingresamos el 6 como número y el 1 como cantidad, debería mostrar lo siguiente:'Incremento 1: 7'Incremento 2: 8''Incremento 3: 9' 'Incremento 4: 10''Incremento 5: 11'
+//let numero=prompt(`Ingresá un número`);
+//let cantidad=prompt(`Ingresá una cantidad`)
+//let incremento1=numero+cantidad;
+//let incremento2=incremento1+cantidad;
+//let incremento3=incremento2+cantidad;
+//let incremento4=incremento3+cantidad;
+//let incremento5=incremento4+cantidad;
+//alert (`Incremento 1: ${incremento1}`);
+//alert (`Incremento 2: ${incremento2}`);
+//alert (`Incremento 3: ${incremento3}`);
+//alert (`Incremento 4: ${incremento4}`);
+//alert (`Incremento 5: ${incremento5}`);
 
 //EJERCICIO 16 Necesitamos un programa que pida ingresar una cantidad de grados Celsius, mediante el siguiente mensaje: Ingresá una cantidad de grados Celsius. Con esta información, el programa deberá mostrar la conversión de grados Celsius a grados Fahrenheit con el mensaje: La conversión de {grados} grados Celsius a Fahrenheit es: {resultado}
 //let grados=prompt(`Ingresá una cantidad de grados Celsius`);
@@ -97,5 +109,21 @@
 //alert (`La conversión de ${grados} grados Celsius a Fahrenheit es: ${resultado}`);
 
 //EJERCICIO 17 Necesitamos un programa que pida dos números con los siguientes mensajes respectivamente: Ingresá el primer número. Ingresá el segundo número. Con esta información, el programa deberá mostrar si el primer valor es múltiplo del segundo mediante el siguiente mensaje: El número {primerNumero} es múltiplo de {segundoNumero}: {resultado}
+//let primerNumero=prompt(`Ingresá el primer número`);
+//let segundoNumero=prompt(`Ingresá el segundo número`);
+//let resultado=(parseInt(primerNumero) % parseInt(segundoNumero));
+//if(resultado==0){
+//  alert (`El número ${primerNumero} es múltiplo de ${segundoNumero}: true`);}
+//else {
+//  alert (`El número ${primerNumero} es múltiplo de ${segundoNumero}: false`);}
 
-//EJERCICIO 18
+//EJERCICIO 18 Necesitamos un programa que pida ingresar una cantidad de segundos , con el siguiente mensaje:Ingresá una cantidad de segundos. Con esta información, el programa deberá mostrar la conversión en horas, minutos y segundos que corresponde a esa cantidad mediante el mensaje: {segundos} segundos son = {horas} horas, {minutos} minutos y {segundos} segundos.
+//let segundos=prompt(`Ingresá una cantidad de segundos`);
+//let horas=(parseInt((segundos)/3600));
+//let segRest=segundos%3600;
+//let minutos=(parseInt((segRest)/60));
+//let segRest2=segRest%60;
+//alert (`${segundos} segundos son = ${horas} horas, ${minutos} minutos y ${segRest2} segundos`);
+
+//Necesitamos un programa que pida ingresar cuántas habitaciones tiene un hotel para 2, 3 y 4 personas , con los siguientes mensajes respectivamente: Ingresá cuantas habitaciones para dos personas tiene el hotel. Ingresá cuantas habitaciones para tres personas tiene el hotel. Ingresá cuantas habitaciones para cuatro personas tiene el hotel. Con esta información, el programa deberá mostrar el máximo de huéspedes que puede albergar mediante el mensaje : El hotel tiene una capacidad de {resultado} personas
+
