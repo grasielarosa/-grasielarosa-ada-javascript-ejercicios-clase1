@@ -65,3 +65,37 @@
 //let altura=prompt(`Ingresá el valor de la altura del rectángulo`);
 //let resultado=2*(base+altura);
 //alert(`El resultado del perímetro del rectángulo con base ${base} y altura ${altura} es: ${resultado}`);
+
+//EJERCICIO 12 Necesitamos un programa que pida ingresar un número, y luego el porcentaje que se desea obtener del mismo mediante los siguientes mensajes:Ingresá un número. Ingresá un porcentaje. Con esta información, el programa deberá mostrar el resultado del porcentaje mediante el siguiente mensaje: El porcentaje {porcentaje} del número {numero} es: {resultado}
+//let numero=prompt(`Ingresá un número por favor`);
+//let porcentaje=prompt(`Ingresá un porcentaje`)
+//let resultado=numero*(porcentaje/100)
+//alert(`El porcentaje ${porcentaje} del número ${numero} es: ${resultado}`)
+
+//EJERCICIO 13  Necesitamos un programa que pida ingresar la distancia de un recorrido, mediante el mensaje: Ingresá la distancia del recorrido. Con esta información, el programa deberá calcular cuánto tiempo tardaría en completar el recorrido en distintos medios de transporte y luego mostrarlo mediante el siguiente mensaje: Para la distancia {distancia} km en bicicleta el tiempo de viaje es {resultadoEnBicicleta} hora/s, a pie {resultadoAPie} hora/s y en auto {resultadoEnAuto} hora/s. Las velocidades de los medio de transporte son: a pie : 5 km/ hs bicicleta : 10 km/ hs auto : 50 km/hs
+//let distancia=prompt(`Ingresá la distancia del recorrido`)
+//let resultadoEnBicicleta=distancia/10;
+//let resultadoAPie=distancia/5;
+//let resultadoEnAuto=distancia/50;
+//alert(`Para la distancia ${distancia} km en bicicleta el tiempo de viaje es ${resultadoEnBicicleta} hora/s, a pie ${resultadoAPie} hora/s y en auto ${resultadoEnAuto} hora/s`);
+
+// EJERCICIO 14 Necesitamos un programa que pida ingresar 3 destinos de las escalas de un vuelo, y la duración de cada uno de ellos, mediante los siguientes mensajes: ¿Cúal es la primer escala? ¿Cúal es la duración de la primer escala¿Cúal es la segunda escala? ¿Cúal es la duración de la segunda escala? ¿Cúal es la tercer escala? ¿Cúal es la duración de la tercer escala? Con esta información, el programa deberá mostrar todas las escalas con su duración y la duración total del vuelo con el siguiente mensaje: La duración total del vuelo con escala en {escalaUno} de duración {duracionEscalaUno} hs, {escalaDos} de duración {duracionEscalaDos} hs y {escalaTres} de duración {duracionEscalaTres} hs es: {resultado} hs.
+//let escalaUno=prompt(`¿Cúal es la primer escala?`);
+//let duracionEscalaUno=prompt(`¿Cúal es la duración de la primer escala?`);
+//let escalaDos=prompt(`¿Cúal es la segunda escala?`);
+//let duracionEscalaDos=prompt(`¿Cúal es la duración de la segunda escala?`);
+//let escalaTres=prompt(`¿Cúal es la tercer escala?`);
+//let duracionEscalaTres=prompt(`¿Cúal es la duración de la tercer escala?`);
+//let resultado = duracionEscalaUno +duracionEscalaDos +duracionEscalaTres;
+//alert (`La duración total del vuelo con escala en ${escalaUno} de duración ${duracionEscalaUno} hs, ${escalaDos} de duración ${duracionEscalaDos} hs y ${escalaTres} de duración ${duracionEscalaTres} hs es: ${resultado} hs`);
+
+//EJERCICIO 15 Necesitamos un programa que pida ingresar un número de partida y una cantidad, mediante los siguientes mensajes:Ingresá un número.Ingresá una cantidad.Con esta información, el programa deberá incrementar el número cinco veces la cantidad y mostrar cinco mensajes seguidos que muestren el número del mensaje y el total incrementado hasta el momento. Por ejemplo si ingresamos el 6 como número y el 1 como cantidad, debería mostrar lo siguiente:'Incremento 1: 7'Incremento 2: 8''Incremento 3: 9' 'Incremento 4: 10''Incremento 5: 11'
+
+//EJERCICIO 16 Necesitamos un programa que pida ingresar una cantidad de grados Celsius, mediante el siguiente mensaje: Ingresá una cantidad de grados Celsius. Con esta información, el programa deberá mostrar la conversión de grados Celsius a grados Fahrenheit con el mensaje: La conversión de {grados} grados Celsius a Fahrenheit es: {resultado}
+//let grados=prompt(`Ingresá una cantidad de grados Celsius`);
+//let resultado=(grados*9/5) + 32;
+//alert (`La conversión de ${grados} grados Celsius a Fahrenheit es: ${resultado}`);
+
+//EJERCICIO 17 Necesitamos un programa que pida dos números con los siguientes mensajes respectivamente: Ingresá el primer número. Ingresá el segundo número. Con esta información, el programa deberá mostrar si el primer valor es múltiplo del segundo mediante el siguiente mensaje: El número {primerNumero} es múltiplo de {segundoNumero}: {resultado}
+
+//EJERCICIO 18
