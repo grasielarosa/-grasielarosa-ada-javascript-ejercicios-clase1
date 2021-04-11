@@ -125,5 +125,21 @@
 //let segRest2=segRest%60;
 //alert (`${segundos} segundos son = ${horas} horas, ${minutos} minutos y ${segRest2} segundos`);
 
-//Necesitamos un programa que pida ingresar cuántas habitaciones tiene un hotel para 2, 3 y 4 personas , con los siguientes mensajes respectivamente: Ingresá cuantas habitaciones para dos personas tiene el hotel. Ingresá cuantas habitaciones para tres personas tiene el hotel. Ingresá cuantas habitaciones para cuatro personas tiene el hotel. Con esta información, el programa deberá mostrar el máximo de huéspedes que puede albergar mediante el mensaje : El hotel tiene una capacidad de {resultado} personas
+//EJERCICIO 19 Necesitamos un programa que pida ingresar cuántas habitaciones tiene un hotel para 2, 3 y 4 personas , con los siguientes mensajes respectivamente: Ingresá cuantas habitaciones para dos personas tiene el hotel. Ingresá cuantas habitaciones para tres personas tiene el hotel. Ingresá cuantas habitaciones para cuatro personas tiene el hotel. Con esta información, el programa deberá mostrar el máximo de huéspedes que puede albergar mediante el mensaje : El hotel tiene una capacidad de {resultado} personas
+//let doble=prompt(`Ingresá cuantas habitaciones para dos personas tiene el hotel`);
+//let triple=prompt(`Ingresá cuantas habitaciones para tres personas tiene el hotel`);
+//let quadruple=prompt(`Ingresá cuantas habitaciones para cuatro personas tiene el hotel`);
+//let resultado=((parseInt(doble)*2) +(parseInt(triple)*3) + (parseInt(quadruple)*4));
+//alert(`El hotel tiene una capacidad de ${resultado} personas`)
+
+//EJERCICIO 20 Necesitamos un programa que pida ingresar cuanto dinero disponible tiene una persona, tres servicios que tiene que abonar y el monto de los mismos con los siguientes mensajes respectivamente: ¿Cuál es tu monto disponible? ¿Cuál es el nombre primer servicio? ¿Cuál es el monto del primer servicio? ¿Cuál es el nombre segundo servicio? ¿Cuál es el monto del segundo servicio? ¿Cuál es el nombre tercer servicio? ¿Cuál es el monto del tercer servicio?Con esta información, el programa deberá mostrar una lista con todos los servicios a pagar y el monto de cada uno, además del dinero disponible que le queda mediante el mensaje : Los servicios a pagar son {servicio1} de $ {montoServicio1}, {servicio2} de $ {montoServicio2}, servicio3 de $ {montoServicio3}, queda disponible un saldo de $ {saldoRestante}.
+//let saldo=prompt(`¿Cuál es tu monto disponible?`);
+//let servicio1=prompt(`¿Cuál es el nombre primer servicio?`);
+//let montoServicio1=prompt(`¿Cuál es el monto del primer servicio?`);
+//let servicio2=prompt(`¿Cuál es el nombre segundo servicio?`);
+//let montoServicio2=prompt(`¿Cuál es el monto del segundo servicio?`);
+//let servicio3=prompt(`¿Cuál es el nombre tercer servicio?`);
+//let montoServicio3=prompt(`¿Cuál es el monto del tercer servicio?`);
+//let saldoRestante=(parseFloat(saldo) - (parseFloat(montoServicio1) + parseFloat(montoServicio2) + parseFloat(montoServicio3)));
+//alert(`Los servicios a pagar son ${servicio1} de $ ${montoServicio1}, ${servicio2} de $ ${montoServicio2}, ${servicio3} de $ ${montoServicio3}, queda disponible un saldo de $ ${saldoRestante}`);
 
